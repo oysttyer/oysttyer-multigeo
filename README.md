@@ -130,7 +130,7 @@ oysttyer> Trying out ttytter+gpsd geolocation (again)  <043
 -- sending to server
 ```
 
-By default, GPSD functionality is not active. You need to set the option `extpref_multigeo_gpsd=true` in your .ttytterrc file. Once oysttyer is running, you can issue the commands `/gpsd on` and `/gpsd off` to enable/disable GPSD functionality. Typing the `/gpsd` command alone will query the current GPS status (offline / no fix / fix and coordinates).
+By default, GPSD functionality is not active. You need to set the option `extpref_multigeo_gpsd=true` in your `.oysttyerrc` file. Once oysttyer is running, you can issue the commands `/gpsd on` and `/gpsd off` to enable/disable GPSD functionality. Typing the `/gpsd` command alone will query the current GPS status (offline / no fix / fix and coordinates).
 
 Please note that `/place` and `/teleport` implies `/gpsd off`. Conversely, `/gpsd on` will override any previous `/place` or `/teleport` command.
 
